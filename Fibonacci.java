@@ -10,6 +10,7 @@ public class Fibonacci {
         }
         return F[n];
     }
+	
     public static void main(String[] args){
         int lastdigit=fib_array(10);
             System.out.println(lastdigit);
