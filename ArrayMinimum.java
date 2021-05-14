@@ -1,5 +1,6 @@
 public class ArrayMinimum {
     //function to check the assertion
+    
     static public Boolean is_minimum(int min, int A[], int begin, int end) {
         for (int i = begin; i != end; ++i) {
             if (min > A[i]) return false;
